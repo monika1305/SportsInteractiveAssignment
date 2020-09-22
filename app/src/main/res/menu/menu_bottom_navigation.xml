@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/action_summary"
+      android:icon="@drawable/summary_24"
+      android:title="@string/summary"
+      android:orderInCategory="1"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_scorecard"
+      android:icon="@drawable/scoreboard_24"
+      android:title="@string/scorecard"
+      android:orderInCategory="2"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_commentary"
+      android:enabled="true"
+      android:icon="@drawable/commentary_24"
+      android:title="@string/commentary"
+      android:orderInCategory="3"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_match_info"
+      android:icon="@android:drawable/ic_dialog_info"
+      android:title="@string/match_info"
+      android:orderInCategory="4"
+      app:showAsAction="ifRoom" />
+
+</menu>
